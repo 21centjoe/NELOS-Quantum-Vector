@@ -1,6 +1,3 @@
-# NELOS-Quantum-Vector
-
-
 ## Quantum Vector Specification for README
 
 The **Quantum Vector** serves as the primary computational unit for the Neo Euclidean Logic Operating System (NELOS). It replaces the standard binary bit with a geometric coordinate system that operates on a 64-bit architecture to simulate multi-state logic.
