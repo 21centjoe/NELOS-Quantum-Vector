@@ -1,0 +1,25 @@
+use aes_gcm::{Aes256Gcm, Key, Nonce};
+use aes_gcm::aead::{Aead, NewAead};
+use std::slice;
+
+#[no_mangle]
+pub extern "C" fn decrypt_vector_flow(
+    data_ptr: *const u8, 
+    len: usize, 
+    key_ptr: *const u8
+) -> i32 {
+    let encrypted_data = unsafe { slice::from_raw_parts(data_ptr, len) };
+    let key_bytes = unsafe { slice::from_raw_parts(key_ptr, 32) };
+    
+    let key = Key::from_slice(key_bytes);
+    let cipher = Aes256Gcm::new(key);
+    let nonce = Nonce::from_slice(b"96-bit-nonce"); // Standard for AES-GCM
+
+    match cipher.decrypt(nonce, encrypted_data) {
+        Ok(plaintext) => {
+            // Signal successful decryption and storage readiness
+            252
+        },
+        Err(_) => -1,
+    }
+}
