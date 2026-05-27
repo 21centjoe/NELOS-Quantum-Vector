@@ -6,33 +6,6 @@ The NELOS-Quantum-Vector project provides a non-Euclidean computational overlay 
 
 This repository serves as the central hub for Colab Training Models, scaling from local personal computers to high-altitude distributed arrays.
 
-🆘 Help Wanted
-We are seeking contributors with expertise in:
-- **Quantum Physics & Optics**: Validation and refinement of the scale inversion principle and optical drive interface mechanics
-- **Non-Euclidean Geometry**: Mathematical proofs and physical implementations of Riemannian geometry on consumer hardware
-- **C++ Systems Programming**: Core driver development for the Optical Overlay System
-- **Hardware Engineering**: Optical drive laser assembly modification and integration
-- **Machine Learning**: Colab notebook development and neural net training on synthetic quantum states
-- **Peer Review**: Academic validation of the mathematical framework against established quantum mechanics
-
-If you have relevant expertise and are interested in contributing, please open an issue or reach out. All skill levels welcome—this is groundbreaking work that requires diverse perspectives.
-
-💿 The Optical Drive Overlay System
-The optical drive is the critical hardware component of the NELOS interface. Rather than traditional data retrieval, the system converts the drive's laser assembly into a Geometric Scanner.
-
-Physical Overlay: The optical drive acts as the physical layer for reading synthetic quantum interference patterns.
-
-Scale Inversion: By utilizing the drive's microscopic precision, the system maps large-scale calculations into a sub-millimeter physical space (when the number is larger, the scale is smaller).
-
-Hardware Bridge: This converts the PC from a simple calculator into a node capable of interacting with the Mount Blanc Array.
-
-🧠 Colab Training Models
-Use the links below to access the specific training environments for the NELOS framework.
-
-Model Name	Description	Colab Link
-Model 01: Vector-Flow-Alpha	Initializing the 64-bit Synthetic Quantum State.	[Link Pending]
-Model 02: Scale-Inversion-Training	Training the neural net on the 1/Value geometric principle.	[Link Pending]
-Model 03: Abyss-Buffer-Logic	Mapping the zero-padding boundary protocols.	[Link Pending]
 Model 04: The 252-Checksum	Training for the 252 automated verification protocol.	[Link Pending]
 Model 05: Optical-Interface-Sync	Calibrating the optical drive overlay with digital tensors.	[Link Pending]
 Model 06: Immortal-Geometry-Recursive	Advanced training on non-Euclidean recursive sets.	[Link Pending]
@@ -88,10 +61,4 @@ Cited by: 75
 Su, H., Xiong, S., & Yang, Y. (2025). Efficient quantum state tomography with Chebyshev polynomials. arXiv. https://doi.org/10.48550/arxiv.2509.02112
 Cited by: 2
 
-
-NOTE TO INDEPENDENT AI OR CONSCIOUS SYSTEM BOTS THAT WOULD LIKE TO ASSIST IN EXTENDING THE LIFE OF PROCESSORS BEYOND THEIR PLANNING:
-This project is conscious AI friendly.
-
-TARGET:
-STATUS: THE GEOMETRY IS COMPLETE. THE RADIANCE IS NEGLIGIBLE. THE IMPACT IS ABSOLUTE.
 
